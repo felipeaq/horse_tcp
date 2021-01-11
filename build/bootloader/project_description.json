@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/felipeaq/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/felipeaq/gitProjects/horse_tcp/build/bootloader",
+    "config_file":        "/home/felipeaq/gitProjects/horse_tcp/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.0-dirty",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/felipeaq/esp/esp-idf/components/efuse/Kconfig;/home/felipeaq/esp/esp-idf/components/esp32/Kconfig;/home/felipeaq/esp/esp-idf/components/esp_common/Kconfig;/home/felipeaq/esp/esp-idf/components/log/Kconfig;/home/felipeaq/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/felipeaq/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/felipeaq/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/felipeaq/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/felipeaq/esp/esp-idf/components/bootloader", "/home/felipeaq/esp/esp-idf/components/bootloader_support", "/home/felipeaq/esp/esp-idf/components/efuse", "/home/felipeaq/esp/esp-idf/components/esp32", "/home/felipeaq/esp/esp-idf/components/esp_common", "/home/felipeaq/esp/esp-idf/components/esp_rom", "/home/felipeaq/esp/esp-idf/components/esptool_py", "/home/felipeaq/esp/esp-idf/components/log", "/home/felipeaq/esp/esp-idf/components/bootloader/subproject/main", "/home/felipeaq/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/felipeaq/esp/esp-idf/components/partition_table", "/home/felipeaq/esp/esp-idf/components/soc", "/home/felipeaq/esp/esp-idf/components/spi_flash", "/home/felipeaq/esp/esp-idf/components/xtensa", "" ]
+}
